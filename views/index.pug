@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    //- <title>This is index.pug page</title>
+    <title>#{title}</title>
+</head>
+style
+      include ../static/style.css
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+        </ul>
+    </nav>
+    <h1 class="heading1">Start Your Gym With 60$ Per Year</h1>
+    <form action="/" id="contact" method="post">
+        <input type="name" placeholder="Enter Your Name" name="Name">
+        <input type="text" placeholder="Enter Your Text" name="Text">
+        <input type="email" placeholder="Enter Your Email" name="Email">
+        <textarea type ="more" id="" cols="30" rows="10" placeholder="Enter about yourself" name="More"></textarea>
+        <button class="btn">Submit Now</button>
+    </form>
+
+</body>
+</html>

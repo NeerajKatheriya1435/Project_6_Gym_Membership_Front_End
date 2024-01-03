@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.navbar {
+    background-color: antiquewhite;
+
+}
+
+ul {
+    display: flex;
+
+}
+
+ul li {
+    list-style: none;
+    margin: 23px;
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.heading1 {
+    text-align: center;
+    color: rgb(9, 9, 102);
+}
+
+form {
+    /* background-color: aqua; */
+    display: block;
+    margin: auto;
+    height: 500px;
+    width: 800px;
+    /* border: 2px solid black; */
+}
+
+input,
+textarea {
+    border: 2px solid black;
+    display: block;
+    margin: 12px auto;
+    width: 560px;
+    padding: 5px;
+    outline: none;
+    border-radius: 6px;
+}
+
+.btn {
+    display: block;
+    border-radius: 10px;
+    margin: 5px auto;
+    padding: 5px;
+    background-color: bisque;
+    color: black;
+    font-size: 18px;
+}
+
+body::before {
+    content: "";
+    background: url("/static/hellosir12.jpg");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: 100% 100%;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
